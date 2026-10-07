@@ -1,0 +1,38 @@
+.post-card {
+  background-color: #d6daf0;
+  border: 1px solid #b7c5d9;
+  border-left: 2px solid #8e9bb3;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.post-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+
+.post-title {
+  color: #0f0c5d;
+  font-weight: bold;
+}
+
+.post-author {
+  color: #117743;
+  font-weight: bold;
+}
+
+.post-category {
+  color: #555;
+  font-size: 11px;
+}
+
+.post-content {
+  margin: 0;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
