@@ -10,7 +10,6 @@ export default function PostCard(props: PostCardProps) {
         title,
         content,
         author,
-        category
     } = props.post;
 
     return (
@@ -18,7 +17,6 @@ export default function PostCard(props: PostCardProps) {
             <div className="post-header">
                 <span className="post-title">{title}</span>
                 <span className="post-author">{author}</span>
-                <span className="post-category">[{category}]</span>
             </div>
             <p className="post-content">{content}</p>
         </div>
