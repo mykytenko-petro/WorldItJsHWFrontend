@@ -1,0 +1,93 @@
+.user-form {
+  background-color: #d6daf0;
+  border: 1px solid #b7c5d9;
+  border-left: 2px solid #8e9bb3;
+  padding: 10px 14px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.user-form-title {
+  margin: 0 0 2px 0;
+  font-weight: bold;
+  color: #0f0c5d;
+  font-size: 14px;
+}
+
+.user-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.user-form-input {
+  background-color: #fff;
+  border: 1px solid #b7c5d9;
+  padding: 5px 8px;
+  font-family: inherit;
+  font-size: 13px;
+  color: #000;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.user-form-input:focus {
+  border-color: #0f0c5d;
+  box-shadow: 0 0 0 1px #0f0c5d;
+}
+
+.user-form-input::placeholder {
+  color: #777;
+  font-style: italic;
+}
+
+.user-form-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2px;
+}
+
+.user-form-btn {
+  background-color: #eaedf7;
+  border: 1px solid #8e9bb3;
+  color: #0f0c5d;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 4px 14px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.user-form-btn:hover {
+  background-color: #cbd3ea;
+  border-color: #0f0c5d;
+}
+
+.user-form-btn:active {
+  background-color: #b7c5d9;
+}
+
+.user-form-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.user-form-status {
+  padding: 6px 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+  border-left: 2px solid transparent;
+}
+
+.user-form-status.error {
+  background-color: #fbeae5;
+  border: 1px solid #e0a89d;
+  border-left: 2px solid #af0a0f;
+  color: #af0a0f;
+  font-weight: bold;
+}
